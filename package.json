@@ -14,6 +14,8 @@
     "puppeteer": "^24.6.1"
   },
   "devDependencies": {
-    "@types/puppeteer": "^5.4.7"
+    "@types/puppeteer": "^5.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
