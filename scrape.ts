@@ -5,7 +5,7 @@ interface OccupationData {
   occupation: string;
   anzscoCode: string;
   anzscoLink: string;
-  visa: string[];
+  visas: Record<string, string>; // key = code, value = name
   list: string;
   assessingAuthority: string[];
   assessingAuthorityLink: string[];
@@ -37,8 +37,23 @@ const scrapeOccupations = async (): Promise<void> => {
         return Array.from(rows).map((row) => {
           const cells = row.querySelectorAll("td");
 
-          const visaContent = cells[2]?.textContent?.trim() || "";
-          const visas = visaContent.split("\n").filter((v) => v.trim() !== "");
+          const visas: Record<string, string> = {};
+          if (cells[2]) {
+            const visaListItems = cells[2].querySelectorAll(
+              "ul.table-search-skill li"
+            );
+
+            visaListItems.forEach((li) => {
+              const text = li.textContent?.trim() || "";
+              const match = text.match(/^(\d+)\s*-\s*(.+)$/);
+
+              if (match) {
+                const code = match[1];
+                const name = match[2];
+                visas[code] = name;
+              }
+            });
+          }
 
           const authorityCell = cells[4];
           let assessingAuthority: string[] = [];
@@ -73,7 +88,7 @@ const scrapeOccupations = async (): Promise<void> => {
             occupation: cells[0]?.textContent?.trim() || "",
             anzscoCode: cells[1]?.textContent?.trim() || "",
             anzscoLink: cells[1]?.querySelector("a")?.href || "",
-            visa: visas,
+            visas,
             list: cells[3]?.textContent?.trim() || "",
             assessingAuthority,
             assessingAuthorityLink,
@@ -103,7 +118,7 @@ const scrapeOccupations = async (): Promise<void> => {
   }
 
   fs.writeFileSync(
-    "occupation_data_structured.json",
+    "occupation_data_structured_updated.json",
     JSON.stringify(allData, null, 2)
   );
   console.log("✅ Final structured data saved!");
