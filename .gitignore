@@ -1,0 +1,13 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore compiled TypeScript
+*.js
+*.js.map
+
+# Ignore data/output files
+occupation_data_structured.json

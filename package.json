@@ -1,0 +1,37 @@
+{
+  "name": "scrapping",
+  "version": "1.0.0",
+  "description": "A Puppeteer-based web scraping project that extracts structured data from the Australian Skilled Occupation List. Written in **TypeScript**.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx prisma migrate dev --name init",
+    "prisma:generate": "npx prisma generate"
+  },
+  "prisma": {
+    "seed": "ts-node seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "puppeteer": "^24.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@types/puppeteer": "^5.4.7",
+    "prisma": "^6.7.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BecomingParas/Scrapping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BecomingParas/Scrapping/issues"
+  },
+  "homepage": "https://github.com/BecomingParas/Scrapping#readme"
+}

@@ -1,0 +1,806 @@
+[
+  {
+    "name": "Visitor visas",
+    "id": 1,
+    "visaTypes": [
+      {
+        "name": "Electronic Travel Authority",
+        "id": 1,
+        "code": "601",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+      },
+      {
+        "name": "eVisitor",
+        "id": 2,
+        "code": "651",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+      },
+      {
+        "name": "Transit visa",
+        "id": 3,
+        "code": "771",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/transit-771"
+      },
+      {
+        "name": "Visitor",
+        "id": 4,
+        "code": "600",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      },
+      {
+        "name": "Work and Holiday visa",
+        "id": 5,
+        "code": "462",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-462"
+      },
+      {
+        "name": "Working Holiday visa",
+        "id": 6,
+        "code": "417",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
+      }
+    ]
+  },
+  {
+    "name": "Studying and training visas",
+    "id": 2,
+    "visaTypes": [
+      {
+        "name": "Student visa",
+        "id": 1,
+        "code": "500",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+      },
+      {
+        "name": "Student Guardian visa",
+        "id": 2,
+        "code": "590",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-590"
+      },
+      {
+        "name": "Training visa",
+        "id": 3,
+        "code": "407",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/training-407"
+      }
+    ]
+  },
+  {
+    "name": "Family and partner visas",
+    "id": 3,
+    "visaTypes": [
+      {
+        "name": "Adoption visa",
+        "id": 1,
+        "code": "102",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/adoption-102"
+      },
+      {
+        "name": "Aged Dependent Relative visa",
+        "id": 2,
+        "code": "114",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/aged-dependent-relative-114"
+      },
+      {
+        "name": "Aged Dependent Relative visa",
+        "id": 3,
+        "code": "838",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/aged-dependent-relative-838"
+      },
+      {
+        "name": "Aged Parent visa",
+        "id": 4,
+        "code": "804",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/aged-parent-804"
+      },
+      {
+        "name": "Carer visa",
+        "id": 5,
+        "code": "836",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/carer-836"
+      },
+      {
+        "name": "Carer visa",
+        "id": 6,
+        "code": "116",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/carer-116"
+      },
+      {
+        "name": "Child visa",
+        "id": 7,
+        "code": "101",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/child-101"
+      },
+      {
+        "name": "Child visa",
+        "id": 8,
+        "code": "802",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/child-802"
+      },
+      {
+        "name": "Contributory Aged Parent  visa (subclass 884)",
+        "id": 9,
+        "code": "884",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/contributory-aged-parent-temporary-884"
+      },
+      {
+        "name": "Contributory Aged Parent visa",
+        "id": 10,
+        "code": "864",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/contributory-aged-parent-864"
+      },
+      {
+        "name": "Contributory Parent  visa (subclass 173)",
+        "id": 11,
+        "code": "173",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/contributory-parent-temporary-173"
+      },
+      {
+        "name": "Contributory Parent visa",
+        "id": 12,
+        "code": "143",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/contributory-parent-143"
+      },
+      {
+        "name": "Dependent Child visa",
+        "id": 13,
+        "code": "445",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/dependent-child-445"
+      },
+      {
+        "name": "New Zealand Citizen Family Relationship  visa (subclass 461)",
+        "id": 14,
+        "code": "461",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/new-zealand-citizen-family-relationship-temporary-461"
+      },
+      {
+        "name": "Orphan Relative",
+        "id": 15,
+        "code": "117",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/orphan-relative-117"
+      },
+      {
+        "name": "Orphan Relative",
+        "id": 16,
+        "code": "837",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/orphan-relative-837"
+      },
+      {
+        "name": "Parent visa",
+        "id": 17,
+        "code": "103",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/parent-103"
+      },
+      {
+        "name": "Partner  visa (subclass 309 100)",
+        "id": 18,
+        "code": "309",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-offshore"
+      },
+      {
+        "name": "Partner visa",
+        "id": 19,
+        "code": "820",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore"
+      },
+      {
+        "name": "Prospective Marriage visa",
+        "id": 20,
+        "code": "300",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/prospective-marriage-300"
+      },
+      {
+        "name": "Remaining Relative visa",
+        "id": 21,
+        "code": "115",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/remaining-relative-115"
+      },
+      {
+        "name": "Remaining Relative visa",
+        "id": 22,
+        "code": "835",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/remaining-relative-835"
+      },
+      {
+        "name": "Sponsored Parent  visa (subclass 870)",
+        "id": 23,
+        "code": "870",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/sponsored-parent-temporary-870"
+      }
+    ]
+  },
+  {
+    "name": "Working and skilled visas",
+    "id": 4,
+    "visaTypes": [
+      {
+        "name": "Business Innovation and Investment  visa (subclass 888)",
+        "id": 1,
+        "code": "888",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-innovation-and-investment-888/"
+      },
+      {
+        "name": "Business Innovation and Investment  visa (subclass 188)",
+        "id": 2,
+        "code": "188",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-innovation-and-investment-188"
+      },
+      {
+        "name": "Business Owner",
+        "id": 3,
+        "code": "890",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-owner-890"
+      },
+      {
+        "name": "National Innovation visa",
+        "id": 4,
+        "code": "858",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/national-innovation-visa-858"
+      },
+      {
+        "name": "Employer Nomination Scheme",
+        "id": 5,
+        "code": "186",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
+      },
+      {
+        "name": "Investor visa",
+        "id": 6,
+        "code": "891",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/investor-891"
+      },
+      {
+        "name": "Permanent Residence  visa (subclass 191)",
+        "id": 7,
+        "code": "191",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-191"
+      },
+      {
+        "name": "Pacific Engagement Visa",
+        "id": 8,
+        "code": "192",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/pacific-engagement"
+      },
+      {
+        "name": "Regional Sponsored Migration Scheme",
+        "id": 9,
+        "code": "187",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/regional-sponsor-migration-scheme-187"
+      },
+      {
+        "name": "Skilled Employer Sponsored Regional  visa (subclass 494)",
+        "id": 10,
+        "code": "494",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-employer-sponsored-regional-494"
+      },
+      {
+        "name": "Skilled Independent visa",
+        "id": 11,
+        "code": "189",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189"
+      },
+      {
+        "name": "Skilled Nominated visa",
+        "id": 12,
+        "code": "190",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-nominated-190"
+      },
+      {
+        "name": "Skilled Regional  visa (subclass 489)",
+        "id": 13,
+        "code": "489",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-provisional-489"
+      },
+      {
+        "name": "Skilled Regional visa",
+        "id": 14,
+        "code": "887",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-887"
+      },
+      {
+        "name": "Skilled Work Regional  visa (subclass 491)",
+        "id": 15,
+        "code": "491",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-work-regional-provisional-491"
+      },
+      {
+        "name": "State or Territory Sponsored Business Owner visa",
+        "id": 16,
+        "code": "892",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/state-or-territory-sponsored-business-owner-892"
+      },
+      {
+        "name": "State or Territory Sponsored Investor visa",
+        "id": 17,
+        "code": "893",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/state-or-territory-sponsored-investor-893"
+      },
+      {
+        "name": "Temporary Activity visa",
+        "id": 18,
+        "code": "408",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-activity-408"
+      },
+      {
+        "name": "Temporary Graduate visa",
+        "id": 19,
+        "code": "485",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/"
+      },
+      {
+        "name": "Temporary Work  visa (subclass 403)",
+        "id": 20,
+        "code": "403",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-work-403"
+      },
+      {
+        "name": "Temporary Work  visa (subclass 400)",
+        "id": 21,
+        "code": "400",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-work-400"
+      },
+      {
+        "name": "Skills in Demand",
+        "id": 22,
+        "code": "482",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482"
+      }
+    ]
+  },
+  {
+    "name": "Refugee and humanitarian visas",
+    "id": 5,
+    "visaTypes": [
+      {
+        "name": "Global Special Humanitarian",
+        "id": 1,
+        "code": "202",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/global-special-humanitarian-202"
+      },
+      {
+        "name": "Protection visa",
+        "id": 2,
+        "code": "866",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/protection-866"
+      },
+      {
+        "name": "Refugee visas",
+        "id": 3,
+        "code": "200",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/refugee-200"
+      },
+      {
+        "name": "Temporary Protection visa",
+        "id": 4,
+        "code": "785",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-protection-785"
+      },
+      {
+        "name": "Safe Haven Enterprise visa",
+        "id": 5,
+        "code": "790",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/safe-haven-enterprise-790"
+      },
+      {
+        "name": "Resolution of Status visa",
+        "id": 6,
+        "code": "851",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resolution-of-status-851#Overview"
+      }
+    ]
+  },
+  {
+    "name": "Other visas",
+    "id": 6,
+    "visaTypes": [
+      {
+        "name": "Bridging visa A – BVA -",
+        "id": 1,
+        "code": "010",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-a-010"
+      },
+      {
+        "name": "Bridging visa B – BVB –",
+        "id": 2,
+        "code": "020",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-b-020"
+      },
+      {
+        "name": "Bridging visa C – BVC –",
+        "id": 3,
+        "code": "030",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-c-030"
+      },
+      {
+        "name": "Bridging visa E – BVE –",
+        "id": 4,
+        "code": "050",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-e-050-051"
+      },
+      {
+        "name": "Crew Travel Authority visa",
+        "id": 5,
+        "code": "942",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/crew-travel-authority-942"
+      },
+      {
+        "name": "Former Resident visa",
+        "id": 6,
+        "code": "151",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/former-resident-151"
+      },
+      {
+        "name": "Maritime Crew visa",
+        "id": 7,
+        "code": "988",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/maritime-crew-988"
+      },
+      {
+        "name": "Medical Treatment visa",
+        "id": 8,
+        "code": "602",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/medical-treatment-602"
+      },
+      {
+        "name": "Resident Return visa",
+        "id": 9,
+        "code": "155",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157"
+      },
+      {
+        "name": "Special Category visa",
+        "id": 10,
+        "code": "444",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/special-category-visa-subclass-444"
+      },
+      {
+        "name": "Special Purpose visa",
+        "id": 11,
+        "code": "",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/special-purpose-visa"
+      },
+      {
+        "name": "Investor Retirement visa",
+        "id": 12,
+        "code": "405",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/investor-retirement-visa-subclass-405"
+      }
+    ]
+  },
+  {
+    "name": "Repealed visas",
+    "id": 7,
+    "visaTypes": [
+      {
+        "name": "Confirmatory  visa (subclass 808)",
+        "id": 1,
+        "code": "808",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/confirmatory-residence-subclass-808"
+      },
+      {
+        "name": "Temporary Activity visa  - Australian Government endorsed events (COVID-19 Pandemic event)",
+        "id": 2,
+        "code": "408",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/covid-19-pandemic-event-subclass-408"
+      },
+      {
+        "name": "Temporary Skill Shortage  visa (subclass 482)",
+        "id": 3,
+        "code": "482",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-skill-shortage-short-term-visa-subclass-482"
+      },
+      {
+        "name": "Temporary Skill Shortage  visa (subclass 482)",
+        "id": 4,
+        "code": "482",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-skill-shortage-medium-term-visa-subclass-482"
+      },
+      {
+        "name": "Temporary Skill Shortage  visa (subclass 482)",
+        "id": 5,
+        "code": "482",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-skill-shortage-labour-agreement-visa-subclass-482"
+      },
+      {
+        "name": "Temporary Graduate  visa (subclass 485)",
+        "id": 6,
+        "code": "485",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-graduate-replacement-stream-visa-subclass-485"
+      },
+      {
+        "name": "Skilled-Recognised Graduate visa",
+        "id": 7,
+        "code": "476",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-recognised-graduate-visa-subclass-476"
+      },
+      {
+        "name": "Business  visa (subclass 456)",
+        "id": 8,
+        "code": "456",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/business-short-stay-visa-subclass-456"
+      },
+      {
+        "name": "Business Skills  visa (subclass 160 and 165)",
+        "id": 9,
+        "code": "160",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/business-skills-provisional-visas-subclasses-160-165"
+      },
+      {
+        "name": "Business Talent  visa (subclass 132)",
+        "id": 10,
+        "code": "132",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-talent-permanent-132"
+      },
+      {
+        "name": "Distinguished Talent visa",
+        "id": 11,
+        "code": "124",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/distinguished-talent-124"
+      },
+      {
+        "name": "Domestic Worker  Diplomatic and Consular visa (subclass 426)",
+        "id": 12,
+        "code": "426",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/domestic-worker-temporary-diplomatic-consular-426"
+      },
+      {
+        "name": "Domestic Worker  Executive visa (subclass 427)",
+        "id": 13,
+        "code": "427",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/domestic-worker-(temporary-executive-visa)-(subclass-427)"
+      },
+      {
+        "name": "Electronic Travel Authority  visa (subclass 956 and 977)",
+        "id": 14,
+        "code": "956",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/electronic-travel-authority-business-entrant-subclass-956-and-977"
+      },
+      {
+        "name": "Electronic Travel Authority  visa (subclass 976)",
+        "id": 15,
+        "code": "976",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/electronic-travel-authority-visitor-subclass-976"
+      },
+      {
+        "name": "Employer Nomination Scheme",
+        "id": 16,
+        "code": "121",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/employer-nomination-scheme-121"
+      },
+      {
+        "name": "Established Business in Australia visa",
+        "id": 17,
+        "code": "845",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/established-business-in-australia-visa-subclass-845"
+      },
+      {
+        "name": "Exchange visa",
+        "id": 18,
+        "code": "411",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/exchange-visa-subclass-411"
+      },
+      {
+        "name": "Foreign Government Agency",
+        "id": 19,
+        "code": "415",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/foreign-government-agency-visa-subclass-415"
+      },
+      {
+        "name": "Government Agreement visa",
+        "id": 20,
+        "code": "406",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/government-agreement-visa-subclass-406"
+      },
+      {
+        "name": "Labour Agreement visa",
+        "id": 21,
+        "code": "120",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/labour-agreement-visa-(subclass-120)"
+      },
+      {
+        "name": "Labour Agreement visa",
+        "id": 22,
+        "code": "855",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/labour-agreement-visa-subclass-855"
+      },
+      {
+        "name": "Media and Film Staff visa",
+        "id": 23,
+        "code": "423",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/media-film-staff-423"
+      },
+      {
+        "name": "Medical Practitioner visa",
+        "id": 24,
+        "code": "422",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/medical-practitioner-visa-subclass-422"
+      },
+      {
+        "name": "Medical Treatment  visa (subclass 675)",
+        "id": 25,
+        "code": "675",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/medical-treatment-short-stay-visa-subclass-675"
+      },
+      {
+        "name": "Medical Treatment Long Stay visa",
+        "id": 26,
+        "code": "685",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/medical-treatment-long-stay-visa-subclass-685"
+      },
+      {
+        "name": "Regional Sponsor Migration Scheme",
+        "id": 27,
+        "code": "119",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/regional-sponsored-migration-scheme-(subclasses-119-and-857)"
+      },
+      {
+        "name": "Religious Worker visa",
+        "id": 28,
+        "code": "428",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/religious-worker-visa-subclass-428"
+      },
+      {
+        "name": "Retirement visa",
+        "id": 29,
+        "code": "410",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/subclass-410"
+      },
+      {
+        "name": "Skilled Designated Area Sponsored visa",
+        "id": 30,
+        "code": "496",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-designated-area-sponsored-visa-subclass-496"
+      },
+      {
+        "name": "Skilled Independent Regional  visa (subclass 495)",
+        "id": 31,
+        "code": "495",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-independent-regional-provisional-visa-subclass-495"
+      },
+      {
+        "name": "Skilled Independent visa",
+        "id": 32,
+        "code": "175",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-independent-subclass-175"
+      },
+      {
+        "name": "Skilled Independent visa",
+        "id": 33,
+        "code": "885",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-independent-visa-(subclass-885)"
+      },
+      {
+        "name": "Skilled Regional Sponsored visa",
+        "id": 34,
+        "code": "475",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-regional-sponsored-visa-subclass-475"
+      },
+      {
+        "name": "Skilled Regional Sponsored",
+        "id": 35,
+        "code": "487",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-regional-sponsored-visa-subclass-487"
+      },
+      {
+        "name": "Skilled Sponsored visa",
+        "id": 36,
+        "code": "176",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-sponsored-visa-subclass-176"
+      },
+      {
+        "name": "Special Program visa",
+        "id": 37,
+        "code": "416",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/special-program-visa-subclass-416"
+      },
+      {
+        "name": "Sponsored visa",
+        "id": 38,
+        "code": "886",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/skilled-sponsored-visa-subclass-886"
+      },
+      {
+        "name": "Sport visa",
+        "id": 39,
+        "code": "421",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/sport-visa-subclass-421"
+      },
+      {
+        "name": "Superyacht Crew visa",
+        "id": 40,
+        "code": "488",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/superyacht-crew-visa-488"
+      },
+      {
+        "name": "State or Territory Sponsored Regional Established Business in Australia visa",
+        "id": 41,
+        "code": "846",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/state-territory-sponsored-regional-established-business-in-australia-visa-subclass-846"
+      },
+      {
+        "name": "Temporary Work  visa (subclass 420)",
+        "id": 42,
+        "code": "420",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-work-entertainment-visa-subclass-420"
+      },
+      {
+        "name": "Temporary Work  visa (subclass 457)",
+        "id": 43,
+        "code": "457",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-work-skilled-457"
+      },
+      {
+        "name": "Tourist visa",
+        "id": 44,
+        "code": "676",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/tourist-visa-676"
+      },
+      {
+        "name": "Temporary Work  visa (subclass 401)",
+        "id": 45,
+        "code": "401",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/temporary-work-(long-stay-activity)-visa-(sublass-401)"
+      },
+      {
+        "name": "Training and Research visa",
+        "id": 46,
+        "code": "402",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/training-and-research-visa-subclass-402"
+      },
+      {
+        "name": "Visiting Academic visa",
+        "id": 47,
+        "code": "419",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/visting-academic-visa-subclass-419"
+      },
+      {
+        "name": "Foreign Affairs or Defence sector visa",
+        "id": 48,
+        "code": "576",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/foreign-affairs-or-defence-sector-visa-subclass-576"
+      },
+      {
+        "name": "Higher Education Sector visa",
+        "id": 49,
+        "code": "573",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/higher-education-sector-573"
+      },
+      {
+        "name": "Independent ELICOS Sector visa",
+        "id": 50,
+        "code": "570",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/independent-elicos-sector-570"
+      },
+      {
+        "name": "Non Award Sector visa",
+        "id": 51,
+        "code": "575",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/non-award-sector-575"
+      },
+      {
+        "name": "Postgraduate Research Sector visa",
+        "id": 52,
+        "code": "574",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/postgraduate-research-sector-574"
+      },
+      {
+        "name": "School Sector visa",
+        "id": 53,
+        "code": "571",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/schools-sector-571"
+      },
+      {
+        "name": "Student Guardian visa",
+        "id": 54,
+        "code": "580",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/guardian-visa-subclass-580"
+      },
+      {
+        "name": "Vocational Education and Training Sector visa",
+        "id": 55,
+        "code": "572",
+        "link": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/repealed-visas/vocational-education-and-training-sector-572"
+      }
+    ]
+  }
+]
